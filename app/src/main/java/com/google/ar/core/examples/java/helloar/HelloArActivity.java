@@ -350,7 +350,7 @@ public class HelloArActivity extends AppCompatActivity implements SampleRender.R
 
       // Virtual object to render (Andy the android)
       Texture virtualObjectTexture =
-          Texture.createFromAsset(render, "models/example.jpg", Texture.WrapMode.REPEAT);
+          Texture.createFromAsset(render, "models/capitan.png", Texture.WrapMode.REPEAT);
       virtualObjectMesh = Mesh.createFromAsset(render, "models/andy2.obj");
       virtualObjectShader =
           createVirtualObjectShader(
